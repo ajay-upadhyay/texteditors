@@ -27,8 +27,10 @@ file_menu.addEventListener("click",()=>{
 })
 
 let file_list =document.getElementsByClassName("file")[0]
+let tool_list=document.getElementsByClassName("tool")[0]
 textarea.addEventListener("click",()=>{
     file_list.style.display="none"
+    tool_list.style.display="none"
     file_list.style.animationName="animate2"
     file_list.style.animationDuration="0.1s"
     file_list.style.animationTimingFunction="linear"
