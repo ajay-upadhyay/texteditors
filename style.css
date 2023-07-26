@@ -178,14 +178,8 @@ textarea {
     background-color: rgb(216, 214, 214);
 }
 
+
 .tool li:nth-child(5):hover {
-
-    border-top: 4px solid rgb(67, 66, 66);
-    border-bottom: 4px solid rgb(67, 66, 66);
-    background-color: rgb(216, 214, 214);
-}
-
-.tool li:nth-child(6):hover {
 
     border-top: 4px solid rgb(67, 66, 66);
     background-color: rgb(216, 214, 214);
