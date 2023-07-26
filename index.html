@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textEditor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <section class="head">
+        <div class="left">
+            <button>File</button>
+            <ul class="file">
+                <li id="new_btn">New</li>
+                <li id="open_btn">Open</li>
+                <li id="exit-btn">Exit</li>
+                <input type="file" id="file-input" style="display: none">
+            </ul>
+            <button>Edit</button>
+            <ul class="tool">
+                <li>Cut</li>
+                <li>Bold</li>
+                <li>Paste</li>
+                <li>Italic</li>
+                <li>delete</li>
+                <li>Highlight</li>
+            </ul>
+        </div>
+        <div class="right">
+            <button id="button_download">Download</button>
+            <button>Save</button>
+        </div>
+    </section>
+    <section class="main_section">
+        <textarea name="" id="textarea" placeholder="Start From Here"></textarea>
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>
