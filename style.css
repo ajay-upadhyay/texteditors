@@ -225,6 +225,7 @@ textarea {
 
     .right>button:last-child {
         height: 4vh;
+        display:none;
         width: 21vw;
         font-size: 15px;
     }
